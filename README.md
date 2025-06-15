@@ -10,8 +10,9 @@ Este proyecto es una aplicación en Python que permite generar contraseñas alea
 - Permite guardar la contraseña generada en un archivo `.txt`
 - Opción para generar varias contraseñas en un solo ciclo
 
-  Diagrama de Flujo
-![Diagrama de Flujo](Dibujo5(2).jpeg)
+ Diagrama de Flujo
+![Diagrama de Flujo](Dibujo%205%20(2).jpeg)
+
 
 ## 🖥️ ¿Cómo usarlo?
 

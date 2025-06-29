@@ -1,22 +1,49 @@
-# Generador de Contraseñas en Python 🔐
+Proyecto Final – Generador de Contraseñas
 
-Este proyecto es una aplicación en Python que permite generar contraseñas aleatorias seguras, con longitud personalizada y opción de guardado en un archivo local.
+Autor
+Carlos  
+Estudiante de Lógica de Programación  
 
-## 🚀 Características
+Objetivo del Proyecto
+Desarrollar un software interactivo en Python que permita generar contraseñas seguras utilizando distintas reglas, según las elecciones del usuario. Este proyecto integra todos los conocimientos adquiridos durante las 8 semanas del curso de Lógica de Programación.
 
-- Solicita la longitud de la contraseña (mínimo 6 caracteres)
-- Verifica la validez del número ingresado
-- Genera contraseñas aleatorias usando letras, números y símbolos
-- Permite guardar la contraseña generada en un archivo `.txt`
-- Opción para generar varias contraseñas en un solo ciclo
+Funcionalidades Principales
 
- Diagrama de Flujo
-![Diagrama de Flujo](Dibujo%205%20(2).jpeg)
+1. Menú principal interactivo
+   - Generar contraseña
+   - Ver reglas de seguridad
+   - Salir del programa
 
+2. Opciones para generar contraseñas
+   - Contraseña personalizada por el usuario
+   - Contraseña automática fácil de decir (solo letras)
+   - Contraseña automática fácil de leer (letras + opción de números/símbolos)
+   - Contraseña con todos los caracteres (con opción de personalización)
 
-## 🖥️ ¿Cómo usarlo?
+3. Evaluación de fortaleza de la contraseña
+   - Se indica si la contraseña es **fuerte** o **débil** según:
+     - Longitud mínima (8)
+     - Inclusión de mayúsculas, minúsculas, números y símbolos
 
-1. Ejecuta el archivo con Python:
+4. Guardado opcional de contraseñas generadas
+   - Se escriben en un archivo local `contraseñas_guardadas.txt`
+
+---
+
+Conocimientos Aplicados
+
+- Algoritmos y lógica condicional (`if`, `while`)
+- Funciones definidas por el usuario (`def`)
+- Manejo de strings y estructuras de datos
+- Módulos estándar (`random`, `string`)
+- Entrada y salida de datos con `input()` y archivos
+- Validación de datos y bucles
+- Estructura `main()` como punto de ejecución
+
+Ejecución del programa
+
+Este programa está diseñado para ser ejecutado desde una terminal con soporte de entrada por teclado.  
+Asegúrate de tener Python instalado (versión 3.6 en adelante).
 
 ```bash
-python "GENERADOR DE CONTRASEÑA.py"
+python generador_contrasenas.py
